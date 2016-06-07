@@ -1,0 +1,102 @@
+---
+title: Home page
+slug: index
+position: 0
+listed: true
+published: true
+is_layout: false
+---
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="theme-color" content="#C62828">
+        {% if page.fullpath == 'index' %} 
+          <title>{{ site.name }}</title> 
+        {% else %}
+          <title>{{ site.name }}, {{ page.title }}</title>
+        {% endif %}
+
+        
+        <link rel="shortcut icon" href="{{ 'favicon.ico'| theme_image_url }}" type="image/x-icon">
+        <link rel="icon" href="{{ 'favicon.ico'| theme_image_url }}" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ 'icon/apple-icon-57x57.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{ 'icon/apple-icon-60x60.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ 'icon/apple-icon-72x72.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ 'icon/apple-icon-76x76.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ 'icon/apple-icon-114x114.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ 'icon/apple-icon-120x120.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ 'icon/apple-icon-144x144.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ 'icon/apple-icon-152x152.png' | theme_image_url }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ 'icon/apple-icon-180x180.png' | theme_image_url }}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{ 'icon/android-icon-192x192.png' | theme_image_url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ 'icon/favicon-32x32.png' | theme_image_url }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ 'icon/favicon-96x96.png' | theme_image_url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ 'icon/favicon-16x16.png' | theme_image_url }}">
+
+        {{ 'style.css' | stylesheet_tag }}
+        {{ 'style850.css' | stylesheet_tag: 'screen and (max-width:850px)' }}
+        {{ 'style-min320-max480.css' | stylesheet_tag: 'only screen and (min-device-width:320px) and (max-device-width:480px)' }}
+        
+        
+        <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    <main>
+    	<header>
+    	    <div id="topwrap">
+    	        <div id="title">
+              <img id="logo" src="{{ 'spiik_logo_black.png' | theme_image_url }}" alt="SPIIK logo"></img>
+    	            <h1>SPIIK - Nollning <p>2015</p></h1>
+    	        </div>
+    	    </div>
+
+    	</header>
+      <nav>
+         <div id="menu">
+           <ul id="nav">
+             <li class="{% if page.fullpath == 'index' %}selected{% endif %}">
+               <a href="/">Hem</a>
+             </li>
+             {% nav site, no_wrapper: true, active_class: "selected" %}
+             <li class="fbevent"><a href="https://www.facebook.com/events/101919653488556/" target="_blank">Facebook event</a></li>
+           </ul>
+         </div>
+       </nav>
+       
+
+    	    	<section>
+    	    	    <article>
+                 {% block 'main' %}
+    	    	        <div id="wrapBra">
+        	    	        <div id="text">
+                	    	    <h1>Välkommen till Linnéuniversitetet!</h1>
+
+                                <p>Vi har fått lära oss att det är politiskt inkorrekt att kalla
+                                introduktionsveckorna för nollning och de nya studenterna för nollor.
+                                Detta skiter vi högaktningsfullt i just nu. </p>
+
+
+                                <p>Du börjar som NOLLA och efter dessa två kommande veckor blir du ETTA!</p>
+
+                                <p>Varmt välkommen till Nollningen 2015!!</p>
+                                <p><i>Mvh Staben</i></p>
+
+                            </div>
+                            <div class="startImg">
+                                <img id="img" src="{{ 'front.jpg' | theme_image_url }}" alt="Bild från nollningen" >
+                                <p><i>Nollningen och de aktiviteter är inte på något sätt till för att förnedra någon eller att bli fullast på stället. Utan de är till för att ni ska lära känna varandra, skapa en bra gemenskap och framför allt ha kul! Så vill man dricka får man, dock behöver du inte känna något tvång ifall du inte vill.</i></p>
+                            </div>
+                        </div>
+                    {% endblock %}
+        	    	</article>
+    	    	</section>
+    	    </main>
+            <script>
+                console.log("www.bennysbitches.com");
+            </script>
+        </body> 
+
+    </body>
+</html>

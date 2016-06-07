@@ -1,0 +1,41 @@
+
+#menu li{
+	height:40px;
+	line-height:40px;
+	float:none;
+	border:none;
+	border-bottom:1px solid #C50101;
+
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#menu li:hover{
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#menu{
+	display: block;
+	border-top:1px solid #C50101;
+}
+
+article{
+	padding:initial;
+	padding-top:2%;
+	width:initial;
+	height:initial;
+}
+
+.profile{
+	float:left;
+	width: initial;
+}

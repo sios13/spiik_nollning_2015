@@ -1,0 +1,9 @@
+name: SPIIK Nollning 2015
+locales: [en]
+domains: [nollning.spiik.com]
+timezone: Stockholm
+seo_title: SPIIK Nollning 2015
+meta_keywords: some meta keywords
+meta_description: some meta description
+metafields: 
+metafields_ui: {}
