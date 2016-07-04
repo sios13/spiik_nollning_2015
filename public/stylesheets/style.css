@@ -41,7 +41,7 @@ header{
 	text-align:center;
 }
 #menu li{
-	
+
 	float:left;
 	list-style-type:none;
 	position:relative;
@@ -58,11 +58,11 @@ header{
 }
 #menu a{
 	text-decoration:none;
-	
+
 	padding: 0 12px 0 12px;
 	color:rgb(73, 11, 11);
 	font-size:0.9em;
-	
+
 	display: block;
 }
 #menu li:hover{
@@ -81,7 +81,7 @@ header{
 	width:100%;
 	display: -webkit-box;
 	font-family: 'Roboto', sans-serif;
-	
+
 }
 #menu ul{
 	padding:0;
@@ -128,7 +128,7 @@ article h1{
 	padding:0;
 	margin:0;
 	font-size:2em;
-	
+
 }
 #text{
 	  float: left;
@@ -137,7 +137,7 @@ article h1{
 	border: 2px solid red;
 	float:left;
 	margin-left: 70px;
-	
+	margin-bottom: 20px;
 	width:80%;
 	height:auto;
 }
@@ -147,7 +147,7 @@ section{
 
 
 
-/*SHEMA*/
+/*SCHEMA*/
 #schema ul{
 	list-style:none;
 	margin:0;
@@ -157,7 +157,7 @@ section{
 
 .day{
 	color:black;
-	margin-bottom:2px;	
+	margin-bottom:2px;
 }
 
 .dayName{
@@ -237,9 +237,10 @@ table, tr, td{
 .profile{
 	float:left;
 	width: 50%;
+	height: 260px;
 }
 .profile h3{
-	position:relative;	
+	position:relative;
 	top:18px;
 }
 
