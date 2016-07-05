@@ -98,6 +98,8 @@ article h1{
     float: initial;
     width:initial;
     margin-bottom:20px;
+    height: auto;
+    margin: 10px 0;
 }
 
 .profile h3{
@@ -114,6 +116,7 @@ article h1{
 .stabProfile img{
 	height:800px;
 	width:540px;
+	margin: 10px 0;
 }
 
 .stabInfo{
