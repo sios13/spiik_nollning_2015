@@ -99,7 +99,7 @@ article h1{
     width:initial;
     margin-bottom:20px;
     height: auto;
-    margin: 10px 0;
+    margin: 25px;
 }
 
 .profile h3{
@@ -111,12 +111,12 @@ article h1{
 .stabProfile{
     text-align:center;
 	float:initial;
+	margin: 30px;
 }
 
 .stabProfile img{
 	height:800px;
 	width:540px;
-	margin: 10px 0;
 }
 
 .stabInfo{
