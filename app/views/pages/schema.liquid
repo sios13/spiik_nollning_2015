@@ -6,115 +6,230 @@ listed: true
 published: true
 is_layout: false
 ---
-{% extends parent %}
-{% block 'main' %}
-  <div id="wrapBra">
-	    <h1>Schema för nollningens två veckor</h1>
-	    <p>Vi hoppas att så många som möjligt deltar i aktiviteterna på nollningen. Detta är produkten av en lång tids arbete från vår sida och är väl genomtänkt för att göra allt så bra som möjligt för de nya studenterna. Lekarna och de andra aktiviteterna är inte på något sätt till för att förnedra någon utan är till för att ni ska lära känna varandra, skapa en bra gemenskap och framförallt ha kul!</p>
-	    <div>
-	        <h3 class="day">DAG 1</h3>
-	        <h3 class="dayName">Måndag 22/8</h3>
-	        <ul>
-	            <li><span class="date">09:00</span>Upprop och försäljning av diverse saker på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Kalmar Nyckel</a></li>
-	            <li><span class="date">11:30</span>Stadsvandring och därefter promenad till brännbollen</li>
-	            <li><span class="date">15:00</span>Brännboll på <a href="https://www.google.se/maps/place/Sk%C3%A4lby+4H-g%C3%A5rd/@56.6814529,16.3327993,628m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d19870d6d4c1:0xed097f9ebd078c42!8m2!3d56.68145!4d16.334988?hl=en">Skälby</a></li>
-	            <li><span class="date">19:00</span>Förfest på <a href="https://www.google.se/maps/@56.6662476,16.3488295,19.75z?hl=en">Falken</a></li>
-              <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 2</h3>
-	        <h3 class="dayName">Tisdag 23/8</h3>
-	        <ul>
-              <li><span class="date">12:00 - 14:00</span>Varannan Vatten (Nykteraktivitet) på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>
-	            <li><span class="date">15:00</span>Lekar med CNaS på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>
-	            <li><span class="date">18:00</span>Trubadurkväll på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 3</h3>
-	        <h3 class="dayName">Onsdag 24/8</h3>
-	        <ul>
-	            <li><span class="date">13:00</span>Teknikkamp på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckeln</a></li>
-	            <li><span class="date">18:00</span>Förfestrunda hemma hos STABEN</li>
-                <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 4</h3>
-	        <h3 class="dayName">Torsdag 25/8 - Heldag med KAROLIN</h3>
-	        <ul>
-	            <li><span class="date">11:00</span>Båtbygge på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>              <li><span class="date">14:00</span>Båtrace på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>
-	            <li><span class="date">18:30</span>Temasittning på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>, med temat film!</li>
-	            <li><span class="date">21:00</span>Efterfest på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 5</h3>
-	        <h3 class="dayName">Fredag 26/8</h3>
-	        <ul>
-	            <li><span class="date">12:00</span>Föreningskamp på <a href="https://www.google.se/maps/place/Sk%C3%A4lby+4H-g%C3%A5rd/@56.6814529,16.3327993,628m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d19870d6d4c1:0xed097f9ebd078c42!8m2!3d56.68145!4d16.334988?hl=en">Skälby</a> med CNaS, KAROLIN, Meskalin, Humanus och Lambda</li>
-	            <li><span class="date">19:00</span>GARDEN PARTY på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 6</h3>
-	        <h3 class="dayName">Lördag 27/8</h3>
-	        <ul>
-              <li><span class="date">13:00 - 17:00</span>Beachparty med ESS i <a href="https://www.google.se/maps/place/Stens%C3%B6+Camping+%26+Fritid+AB/@56.6501922,16.3226172,1496m/data=!3m1!1e3!4m5!3m4!1s0x4657d22b580ad969:0xd77488846b6d5a5b!8m2!3d56.6497422!4d16.326929?hl=en">Långviken</a></li>
-	            <li><span class="date">21:00 - 01:00</span>GARDEN PARTY på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 7</h3>
-	        <h3 class="dayName">Söndag 28/8</h3>
-	        <ul>
-	            <li><span class="date">14:00</span>Vilodag! Mys med film och snacks på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckeln</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 8</h3>
-	        <h3 class="dayName">Måndag 29/8</h3>
-	        <ul>
-	            <li><span class="date">18:00</span>Picnic med Meskalin och Humanus i <a href="https://www.google.se/maps/place/Kalmarsundsparken,+392+47+Kalmar/@56.6541458,16.338696,629m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d3d46a439e27:0x77ad89a0776ac67a!8m2!3d56.654466!4d16.3408584?hl=en">Kalmarsundsparken</a></li>
-	            <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 9</h3>
-	        <h3 class="dayName">Tisdag 30/8</h3>
-	        <ul>
-	            <li><span class="date">16:00</span>Instutitionsbrännboll med Linnéstudenterna på <a href="https://www.google.se/maps/place/Kalmarsundsparken,+392+47+Kalmar/@56.6541458,16.338696,629m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d3d46a439e27:0x77ad89a0776ac67a!8m2!3d56.654466!4d16.3408584?hl=en">Kalmarsundsparken</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 10</h3>
-	        <h3 class="dayName">Onsdag 31/8</h3>
-	        <ul>
-	            <li><span class="date">17:00</span>Pubrunda med start på <a href="https://www.google.se/maps/@56.6632511,16.3588645,629m/data=!3m1!1e3?hl=en">Larmtorget</a></li>
-              	<li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 11</h3>
-	        <h3 class="dayName">Torsdag 1/9</h3>
-	        <ul>
-	            <li><span class="date">17:00</span>Musikquiz med Meskalin på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckelns Innergård!</a></li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 12</h3>
-	        <h3 class="dayName">Fredag 2/9</h3>
-	        <ul>
-	            <li><span class="date">18:00</span>GRANDE FINALE på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>! Du går från Nolla till Etta!</li>
-              <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
-	        </ul>
-	    </div>
-	    <div>
-	        <h3 class="day">DAG 13</h3>
-	        <h3 class="dayName">Lördag 3/9</h3>
-	        <ul>
-	            <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
-	        </ul>
-	    </div>
-  <div>
+{% extends parent %}
+
+{% block 'main' %}
+
+  <div id="wrapBra">
+
+	    <h1>Schema för nollningens två veckor</h1>
+
+	    <p>Vi hoppas att så många som möjligt deltar i aktiviteterna på nollningen. Detta är produkten av en lång tids arbete från vår sida och är väl genomtänkt för att göra allt så bra som möjligt för de nya studenterna. Lekarna och de andra aktiviteterna är inte på något sätt till för att förnedra någon utan är till för att ni ska lära känna varandra, skapa en bra gemenskap och framförallt ha kul!</p>
+
+	    <div>
+
+	        <h3 class="day">DAG 1</h3>
+
+	        <h3 class="dayName">Måndag 22/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">09:00</span>Upprop och försäljning av diverse saker på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Kalmar Nyckel</a></li>
+
+	            <li><span class="date">11:30</span>Stadsvandring och därefter promenad till brännbollen</li>
+
+	            <li><span class="date">15:00</span>Brännboll på <a href="https://www.google.se/maps/place/Sk%C3%A4lby+4H-g%C3%A5rd/@56.6814529,16.3327993,628m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d19870d6d4c1:0xed097f9ebd078c42!8m2!3d56.68145!4d16.334988?hl=en">Skälby</a></li>
+
+	            <li><span class="date">19:00</span>Förfest på <a href="https://www.google.se/maps/@56.6662476,16.3488295,19.75z?hl=en">Falken</a></li>
+
+              <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 2</h3>
+
+	        <h3 class="dayName">Tisdag 23/8</h3>
+
+	        <ul>
+
+              <li><span class="date">12:00 - 14:00</span>Varannan Vatten (Nykteraktivitet) på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>
+
+	            <li><span class="date">15:00</span>Lekar med CNaS på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>
+
+	            <li><span class="date">18:00</span>Trubadurkväll på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 3</h3>
+
+	        <h3 class="dayName">Onsdag 24/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">13:00</span>Teknikkamp på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckeln</a></li>
+
+	            <li><span class="date">18:00</span>Förfestrunda hemma hos STABEN</li>
+
+                <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 4</h3>
+
+	        <h3 class="dayName">Torsdag 25/8 - Heldag med KAROLIN</h3>
+
+	        <ul>
+
+	            <li><span class="date">11:00</span>Båtbygge på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>
+
+              <li><span class="date">14:00</span>Båtrace på <a href="https://www.google.se/maps/place/%C3%84ventyrsbadet+i+Kalmar/@56.6680255,16.3492881,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d179c10c359d:0x51e5e9f331a0b4e2">Sveaplan</a></li>
+
+	            <li><span class="date">18:30</span>Temasittning på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>, med temat film!</li>
+
+	            <li><span class="date">21:00</span>Efterfest på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 5</h3>
+
+	        <h3 class="dayName">Fredag 26/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">12:00</span>Föreningskamp på <a href="https://www.google.se/maps/place/Sk%C3%A4lby+4H-g%C3%A5rd/@56.6814529,16.3327993,628m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d19870d6d4c1:0xed097f9ebd078c42!8m2!3d56.68145!4d16.334988?hl=en">Skälby</a> med CNaS, KAROLIN, Meskalin, Humanus och Lambda</li>
+
+	            <li><span class="date">19:00 - 01:00</span>GARDEN PARTY på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 6</h3>
+
+	        <h3 class="dayName">Lördag 27/8</h3>
+
+	        <ul>
+
+              <li><span class="date">13:00 - 17:00</span>Beachparty med ESS i <a href="https://www.google.se/maps/place/Stens%C3%B6+Camping+%26+Fritid+AB/@56.6501922,16.3226172,1496m/data=!3m1!1e3!4m5!3m4!1s0x4657d22b580ad969:0xd77488846b6d5a5b!8m2!3d56.6497422!4d16.326929?hl=en">Långviken</a></li>
+
+	            <li><span class="date">19:00 - 01:00</span>GARDEN PARTY på <a href="https://www.google.se/maps/place/Lind%C3%B6v%C3%A4gen,+Kalmar/@56.6730158,16.3580678,16z/data=!4m2!3m1!1s0x4657d171621a42e7:0x4a180d33876ab252">Lindö</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 7</h3>
+
+	        <h3 class="dayName">Söndag 28/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">14:00</span>Vilodag! Mys med film och snacks på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckeln</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 8</h3>
+
+	        <h3 class="dayName">Måndag 29/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">18:00</span>Picnic med Meskalin och Humanus i <a href="https://www.google.se/maps/place/Kalmarsundsparken,+392+47+Kalmar/@56.6541458,16.338696,629m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d3d46a439e27:0x77ad89a0776ac67a!8m2!3d56.654466!4d16.3408584?hl=en">Kalmarsundsparken</a></li>
+
+	            <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 9</h3>
+
+	        <h3 class="dayName">Tisdag 30/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">16:00</span>Instutitionsbrännboll med Linnéstudenterna på <a href="https://www.google.se/maps/place/Kalmarsundsparken,+392+47+Kalmar/@56.6541458,16.338696,629m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4657d3d46a439e27:0x77ad89a0776ac67a!8m2!3d56.654466!4d16.3408584?hl=en">Kalmarsundsparken</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 10</h3>
+
+	        <h3 class="dayName">Onsdag 31/8</h3>
+
+	        <ul>
+
+	            <li><span class="date">17:00</span>Pubrunda med start på <a href="https://www.google.se/maps/@56.6632511,16.3588645,629m/data=!3m1!1e3?hl=en">Larmtorget</a></li>
+
+              	<li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 11</h3>
+
+	        <h3 class="dayName">Torsdag 1/9</h3>
+
+	        <ul>
+
+	            <li><span class="date">17:00</span>Musikquiz med Meskalin på <a href="https://www.google.se/maps/place/Gr%C3%B6ndalsv%C3%A4gen+21,+392+36+Kalmar/@56.6786566,16.3590932,17z/data=!3m1!4b1!4m2!3m1!1s0x4657d17358659c31:0x91e9e65710898956">Nyckelns Innergård!</a></li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 12</h3>
+
+	        <h3 class="dayName">Fredag 2/9</h3>
+
+	        <ul>
+
+	            <li><span class="date">18:00</span>GRANDE FINALE på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>! Du går från Nolla till Etta!</li>
+
+              <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
+
+	        </ul>
+
+	    </div>
+
+	    <div>
+
+	        <h3 class="day">DAG 13</h3>
+
+	        <h3 class="dayName">Lördag 3/9</h3>
+
+	        <ul>
+
+	            <li><span class="date">22:00</span>CÅRKVÄLL på <a href="https://www.google.se/maps/place/Restaurang+Sandra/@56.6647794,16.33457,16.75z/data=!4m2!3m1!1s0x4657d18112b47501:0xab1b1b93ddc949c3">Sandras</a>!</li>
+
+	        </ul>
+
+	    </div>
+
+  <div>
+
 {% endblock %}

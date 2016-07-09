@@ -237,7 +237,7 @@ table, tr, td{
 .profile{
 	float:left;
 	width: 50%;
-	height: 260px;
+	height: 290px;
 }
 .profile h3{
 	position:relative;
@@ -246,4 +246,8 @@ table, tr, td{
 
 .startImg{
 	padding: 0 40px 0 40px;
+}
+
+.toBottom {
+	clear: both;
 }
