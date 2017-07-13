@@ -6,164 +6,16 @@ listed: true
 published: true
 is_layout: false
 ---
-{% extends parent %}
-{% block 'main' %}
-   	        <div id="wrapBra">
-     	    	    <h1>Våra faddrar!</h1>
-     	    	    <p></p>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder (ska stå klass här..)</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/assel.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Axel Karlsson</li>
-     	    	                <li><span>Ålder:</span>23</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 2</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/do.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-                                 <li><span>Namn:</span>David Do</li>
-     	    	                <li><span>Ålder:</span>22</li>
-     	    	                <li><span>Pluggar:</span>Interaktionsdesign, år 2</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/erk.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Erik Sjöström Jennerstrand</li>
-     	    	                <li><span>Ålder:</span>23</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/king.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Joakim Lindén Johansson</li>
-     	    	                <li><span>Ålder:</span>25</li>
-     	    	                <li><span>Pluggar:</span>Interaktionsdesign, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/king2.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Jakob Edéus</li>
-     	    	                <li><span>Ålder:</span>23</li>
-     	    	                <li><span>Pluggar:</span>Interaktionsdesign, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>                <div class="profile">                    <!--<h3>Fadder</h3>-->                    <div class="stabProfile">{{ 'faddrar/king3.jpg' | theme_image_tag }}</div>                    <div class="stabInfo">                        <ul>                            <li><span>Namn:</span>Filip Hallberg</li>                            <li><span>Ålder:</span>24</li>                            <li><span>Pluggar:</span>Interaktionsdesign, år 3</li>                        </ul>                    </div>                </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/martin.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Martin Arvidsson</li>
-     	    	                <li><span>Ålder:</span>22</li>
-     	    	                <li><span>Pluggar:</span>Utveckling av Digitala tjänster, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/nombangs.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Christoffer Ekberg</li>
-     	    	                <li><span>Ålder:</span>26</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 2</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/pottanfab.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Filip Sjöberg</li>
-     	    	                <li><span>Ålder:</span>23</li>
-     	    	                <li><span>Pluggar:</span>Interaktionsdesign, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	       <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/reb.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Rebecca Fransson</li>
-     	    	                <li><span>Ålder:</span>22</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/richard.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Richard Söderman</li>
-     	    	                <li><span>Ålder:</span>22</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/stoffster.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Kristoffer Svensson</li>
-     	    	                <li><span>Ålder:</span>25</li>
-     	    	                <li><span>Pluggar:</span>Utveckling av Digitala tjänster, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/ullis.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Anton Larsson</li>
-     	    	                <li><span>Ålder:</span>22</li>
-     	    	                <li><span>Pluggar:</span>Utveckling av Digitala tjänster, år 3</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>
-     	    	    <div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-     	    	        <div class="stabProfile">{{ 'faddrar/willster.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>William Robertson</li>
-     	    	                <li><span>Ålder:</span>24</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 1</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>                <div class="profile">     	    	        <!--<h3>Fadder</h3>-->     	    	        <div class="stabProfile">{{ 'faddrar/ryssen.jpg' | theme_image_tag }}</div>     	    	        <div class="stabInfo">     	    	            <ul>     	    	                <li><span>Namn:</span>Alex Driaguine</li>     	    	                <li><span>Ålder:</span>24</li>     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 3</li>     	    	            </ul>     	    	        </div>     	    	    </div>
-              		<div class="profile">
-     	    	        <!--<h3>Fadder</h3>-->
-                      <div class="stabProfile">{{ 'faddrar/yes.jpg' | theme_image_tag }}</div>
-     	    	        <div class="stabInfo">
-     	    	            <ul>
-     	    	                <li><span>Namn:</span>Louise Rudbäck</li>
-     	    	                <li><span>Ålder:</span>21</li>
-     	    	                <li><span>Pluggar:</span>Webbprogrammering, år 2</li>
-     	    	            </ul>
-     	    	        </div>
-     	    	    </div>                <div class="profile">                  <h3>VARNING FÖR KATT</h3>                    <div class="stabProfile">{{ 'faddrar/akta.jpg' | theme_image_tag }}</div>                  <div class="stabInfo">                      <ul>                          <li><span>Namn:</span>Oskar "Kitty" Emilsson</li>                          <li><span>Ålder:</span>Jätte Gammal</li>                          <li><span>Pluggar:</span>Webbprogrammering, år 2</li>                      </ul>                  </div>              </div>
-   	        </div>
+{% extends parent %}
+
+{% block 'main' %}
+
+   	        <div id="wrapBra">
+
+     	    	    <h1>Våra faddrar!</h1>
+
+     	    	    <p>Här kommer snart en presentation av våra faddrar!</p>
+
+   	        </div>
+
 {% endblock %}
